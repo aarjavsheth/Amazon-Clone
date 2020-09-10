@@ -1,0 +1,39 @@
+.cartitem {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.cartitem__info {
+    padding: 0 0 10px 20px;
+}
+
+.cartitem__info > button {
+    background: #f0c14b;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+}
+
+.cartitem__image {
+    object-fit: contain;
+    width: 180px;
+    height: 180px;
+    margin-bottom: 10px;
+}
+
+.cartitem__rating {
+    display: flex;
+}
+
+.cartitem__title {
+    font-size: 17px;
+    font-weight: 800;
+}
+
+.cartitem__price > small {
+    font-weight: 600;
+}
