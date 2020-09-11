@@ -2,7 +2,6 @@ import React from 'react'
 import './Checkout.css'
 import Subtotal from './Subtotal'
 import { useStateValue } from '../StateProvider'
-import Product from './Product';
 import CartItem from './CartItem';
 
 function Checkout() {
@@ -23,7 +22,6 @@ function Checkout() {
                     </h2>
                 </div>
 
-                {/* CartItem */}
                 {cart.map(item => (
                     <CartItem
                         id={item.id}

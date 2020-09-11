@@ -1,3 +1,4 @@
+// CREATING A HOOK
 import React, { createContext, useContext, useReducer } from "react";
 
 // Prepares the DataLayer
